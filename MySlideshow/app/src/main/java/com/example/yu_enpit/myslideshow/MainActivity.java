@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         view.animate().setDuration(1000).setInterpolator(new BounceInterpolator()).y(y);
     }
 
+
     public void movePosition(int move) {
         mPosition = mPosition + move;
         if(mPosition >= mImageResources.length) {
