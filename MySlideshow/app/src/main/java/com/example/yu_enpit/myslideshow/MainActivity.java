@@ -83,12 +83,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.imageView).animate().setDuration(1000).alpha(0.0f);
     }
 
+
     public void onNextButtonTapped(View view) {
         mImageSwitcher.setInAnimation(this, android.R.anim.slide_in_left);
         mImageSwitcher.setOutAnimation(this, android.R.anim.slide_out_right);
         movePosition(1);
         findViewById(R.id.imageView).animate().setDuration(1000).alpha(0.0f);
     }
+
 
     public void onSlideshowButtonTapped(View view) {
         mIsSlideshow = !mIsSlideshow;
