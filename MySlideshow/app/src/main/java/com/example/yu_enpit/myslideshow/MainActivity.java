@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.imageView).animate().setDuration(1000).alpha(0.0f);
     }
 
+
     public void onSlideshowButtonTapped(View view) {
         mIsSlideshow = !mIsSlideshow;
 
